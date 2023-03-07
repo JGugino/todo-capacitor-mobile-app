@@ -1,7 +1,7 @@
 export default interface TodoItem{
     id: string,
     priority: 'low' | 'medium' | 'high',
-    deadline: 'none' | Date;
+    deadline?: Date | null;
     creator: string,
     text: string
 }

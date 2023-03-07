@@ -9,7 +9,3 @@
 <ContentHolder />
 
 <Footer />
-
-<style lang="scss">
-
-</style>
